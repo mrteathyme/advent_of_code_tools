@@ -1,8 +1,12 @@
 [package]
-name = "advent-of-code-tools"
+name = "advent_of_code_tools"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+scraper = "0.13.0"
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+chrono = "0.4.23"
